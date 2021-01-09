@@ -26,4 +26,19 @@ Connect your Arduino and upload the code:
 make install
 ```
 
+## Notes
 
+  - https://github.com/arduino/ArduinoCore-avr/blob/master/variants/leonardo/pins_arduino.h
+  - http://www.arduino.cc/en/Tutorial/AnalogReadSerial
+  - https://lab.arts.ac.uk/books/physical-computing/page/using-arduino-leonardo-to-send-usb-midi-data
+	- https://www.midi.org/specifications-old/item/table-3-control-change-messages-data-bytes-2
+	- http://manpages.ubuntu.com/manpages/bionic/man1/midisnoop.1.html for debugging
+
+Undefined MIDI CC List
+
+ - 3
+ - 9
+ - 14-15
+ - 20-31
+ - 85-90
+ - 102-119
